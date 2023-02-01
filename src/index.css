@@ -403,6 +403,7 @@ body .modal {
 .modal .formulario.animar {
     position: relative;
     opacity: 1;
+    
 }
 
 .modal .formulario.cerrar {
@@ -420,6 +421,15 @@ body .modal {
     .modal .cerrar-modal img {
         margin: 0 10px;
     }
+    .modal .cerrar-modal img {
+        width: 80%;
+    }
+    .formulario {
+        width: 95%;
+        margin: 0 auto;
+        padding: 5rem 0;
+    }
+  
  
 }
 
