@@ -4,7 +4,7 @@ const Filtros = ({filtro, setFiltro}) => {
     return (
         <div className='filtros sombra contenedor'>
             <form>
-                <div className='campo'>
+                <div className='campo filtrarResponsive'>
                     <label>Filtrar Gastos</label>
                     <select 
                         value={filtro}
