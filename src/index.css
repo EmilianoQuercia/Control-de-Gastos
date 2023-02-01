@@ -425,12 +425,14 @@ body .modal {
         width: 80%;
     }
     .formulario {
-        width: 95%;
-        margin: 0 auto;
         padding: 5rem 0;
     }
-  
- 
+    .formulario legend {
+        margin-bottom: 2rem;
+    }
+    .formulario label {
+        margin-bottom: 1rem;
+    }
 }
 
 .CircularProgressbar .CircularProgressbar-text {
